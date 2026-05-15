@@ -52,7 +52,6 @@ The frontend will be exposed on `http://localhost:3000` and the backend API on `
 ## Production notes
 
 - The `frontend` service uses nginx to route `/api/` and `/ws/` to the backend so the SPA can run from a single origin.
-- The backend image includes static assets from the frontend build, enabling an optional unified deployment path.
 - The backend uses `CGO_ENABLED=0` for a portable static build.
 
 ## Database initialization
