@@ -1,0 +1,10 @@
+# Ignore Docker build artifacts and local dependencies
+.git
+.gitignore
+node_modules
+frontend/node_modules
+frontend/dist
+backend/bin
+bin
+npm-debug.log
+.DS_Store
